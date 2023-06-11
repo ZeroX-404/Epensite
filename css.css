@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background:rgb(10, 10, 10);
+}
+
+
+.banner {
+  background: url(https://c4.wallpaperflare.com/wallpaper/268/96/863/anime-anime-girls-original-characters-short-hair-wallpaper-preview.jpg)
+    no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+  width: 100%;
+}
+
+.social-media-icon {
+  padding: 5px;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+}
+
+a.social-media-icon:hover {
+  background: #fff !important;
+  color: #222 !important;
+}
+
+.col-12 .spaninfo {
+color: red;
+}
+
+.card i{
+margin-left: 5px;
+}
+
+.gg-coffee{
+color:chocolate;
+margin-bottom: 10px;
+}
+
+.card-p{
+  margin-left: 90px;
+}
+
+.gg-gender-male{
+  color: gold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerft {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: rgba(27, 27, 27, 1);
+  padding: 70px 0;
+  margin-top: 50px;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgba(0, 3, 255, 0.8);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: rgba(0, 3, 255, 0.8);
+  padding-left: 8px;
+}
+.footer-col .social-media a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 10px 10px 0;
+  transition: all 0.5s ease;
+}
+.footer-col .social-media a:hover {
+  color: rgba(0, 3, 255, 0.8);
+  background-color: rgba(236, 236, 236, 0.8);
+}
+.fixed-footer {
+    width: 100%;
+    position: relative;
+    background: #333;
+    margin: 0 10px 10px 0;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+  }
+  .fixed-footer {
+    bottom: 0;
+    width: 100%;
+  }
+  
+
+
+.about-mee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme{
+margin-right: auto;
+left: auto;
+justify-content: center;
+  
+}
+  
+
+.row{
+  border: 1px red;
+}
+
+.gambar{
+  
+  margin:10px 0px;
+  background-color: #fff;
+  text-align: center;
+
+}
+
+
+.foto{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+/*responsive*/
+.sf{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 574px) {
+  .body {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 574px) {
+  .about-mee {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 465px) {
+  .sf {
+   margin-left: 90px;
+   
+  }
+}
+
+
+
+@media (max-width: 570px) {
+  .text h5 {
+   font-size:15px;
+  
+  }
+
+  .text h4{
+    font-size: 20px;
+  }
+
+.text p{
+  font-size: 12px;
+}
+
+}
+
+@media (max-width: 570px) {
+  .textinfo p {
+   font-size:13px;
+  
+  }
+
+}
+
+@media (max-width: 570px) {
+  .text2{
+   font-size:12px;
+  
+  }
+
+}
+
+
+
